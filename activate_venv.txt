@@ -1,0 +1,8 @@
+# Activate venv
+source venv/bin/activate
+
+# Deactivate
+deactivate
+
+# Delete venv
+rm -rf venv
