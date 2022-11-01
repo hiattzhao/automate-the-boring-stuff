@@ -35,5 +35,3 @@ elif int(month) == 2 and not ((int(year) % 4 == 0 or int(year) % 400 == 0) and n
 
 if isValidDate:
     print('Date is valid')
-
-
