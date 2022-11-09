@@ -7,7 +7,7 @@ currentDirectory = Path.cwd()
 for folderName, subfolders, filenames in os.walk(currentDirectory):
     for filename in filenames:
         if filename.endswith('pdf'):
-            shutil.copy(currentDirectory / filename, currentDirectory / '10-BackupFolder')
+            shutil.copy(currentDirectory / filename, currentDirectory / '10-BackupFolder') # Create '10-BackupFolder' first 
 
 print('Done copying')
 
