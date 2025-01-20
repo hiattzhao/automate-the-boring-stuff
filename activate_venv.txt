@@ -1,8 +1,13 @@
+# https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
+# Create virtual environment
+python3 -m venv .venv
+
 # Activate venv
-source venv/bin/activate
+source .venv/bin/activate
 
 # Deactivate
 deactivate
 
 # Delete venv
-rm -rf venv
+rm -rf .venv
